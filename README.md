@@ -7,3 +7,4 @@ docker build -t cantatas-static .
 docker run -v $(pwd):/work -w /work -p 4000:4000 cantatas-static jekyll serve
 ```
 
+Navigate to `http://localhost:4000/`
