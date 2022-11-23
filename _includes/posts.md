@@ -1,15 +1,8 @@
-{% if page.previous.url || page.next.url %}
-  <div class="row mt-4">
-    <div class="col">
-      {% if page.previous.url %}
-        ‹ <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-      {% endif %}
-    </div>
-
-    <div class="col">
-      {% if page.next.url %}
-        <a href="{{ page.next.url }}">{{ page.next.title }}</a> ›
-      {% endif %}
-    </div>
-  </div>
-{% endif %}
+<ul class="list list-unstyled list-spacey">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+      <span class="byline sc">{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+</ul>
