@@ -7,3 +7,23 @@ description: >-
 baseurl: "" # subpath of your site, e.g. /blog
 url: "https://www.vmii.org/blog"
 twitter_username: vmii_org
+
+
+collections:
+  # Diátaxis framework https://diataxis.fr/
+  concepts: # aka "explanations"
+    output: true
+    permalink: /docs/:collection/:name
+    sort_by: order
+  howtos:
+    output: true
+    permalink: /docs/:collection/:name
+  tutorials:
+    output: true
+    permalink: /docs/:collection/:name
+  references:
+    permalink: /docs/:collection/:name
+    output: true
+  columns:
+    output: false # handled by _references/columns
+    sort_by: name

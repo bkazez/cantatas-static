@@ -4,15 +4,11 @@ layout: default
 <div class="row">
   <div class="col-md-9 readable-width">
     <h1>{{ page.title }}</h1>
-    <p class="byline">
-      {{ page.date | date_to_long_string }}<br>
-      By {{ page.author }}
-    </p>
 
     {{ content }}
 
     {% if page.previous.url or page.next.url %}
-      <h2>More from the Cataloguers’ Corner</h2>
+      <h2>Learn more</h2>
       <div class="row mt-3">
         <div class="col">
           {% if page.previous.url %}
@@ -30,7 +26,29 @@ layout: default
   </div>
 
   <div class="col-md-4 col-lg-3 order-md-first mt-3 mt-md-0">
-    <h2>The Cataloguers’ Corner</h2>
-    {% include posts.md %}
+    <h1>Documentation</h1>
+
+    <h2>Basics</h2>
+    <ul class="list list-unstyled">
+      {% for doc in site.concepts %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>Reference Guides</h2>
+    <ul class="list list-unstyled">
+      {% for doc in site.references %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>How Tos</h2>
+    <ul class="list list-unstyled">
+      {% for doc in site.howtos %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+
   </div>
 </div>
