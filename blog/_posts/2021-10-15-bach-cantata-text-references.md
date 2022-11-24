@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bach Cantata Text References"
+title: "Did You Get That Reference?"
 date: 2022-10-15
 author: "Ben Kazez"
 ---
