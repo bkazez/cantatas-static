@@ -1,1 +1,1 @@
-This field accepts text-based formatting: for _italics_, use `_italics_`.
+Note: **{{ include.column }}** can contain text-based formatting: for _italics_, use `_italics_`.

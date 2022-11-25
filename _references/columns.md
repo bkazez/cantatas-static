@@ -9,27 +9,27 @@ title: All the columns
       {{ col.content | markdownify }}
       
       {% if col.markdown %}
-        {% capture inc %}{% include markdown.md %}{% endcapture %}
+        {% capture inc %}{% include markdown.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
       
       {% if col.multiline %}
-        {% capture inc %}{% include multiline.md %}{% endcapture %}
+        {% capture inc %}{% include multiline.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
       
       {% if col.editorial %}
-        {% capture inc %}{% include editorial.md %}{% endcapture %}
+        {% capture inc %}{% include editorial.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
       
       {% if col.multivalue %}
-        {% capture inc %}{% include multivalue.md %}{% endcapture %}
+        {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
       
       {% if col.noneable %}
-        {% capture inc %}{% include noneable.md %}{% endcapture %}
+        {% capture inc %}{% include noneable.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
     {% endfor %}

@@ -1,1 +1,1 @@
-If you checked for this field and it truly is empty, denote that explicitly type typing `<none>`.
+If you checked for **{{ include.column }}** and it truly is empty, denote that explicitly type typing `<none>`.

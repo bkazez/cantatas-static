@@ -39,17 +39,3 @@ If **work_instrumentation** lists all characters and their voice parts, then whe
 ```
 Oronte
 ```
-
-
-
-
-<h1 id="extra_credit">For extra credit</h1>
-
-<h2><code>range</code></h2>
-<p>The lowest and highest note of each corresponding musical line, with octaves in <a href="https://en.wikipedia.org/wiki/Scientific_pitch_notation" target="_blank">scientific pitch notation</a>. Use <code>b</code> for flat and <code>#</code> for sharp.</p>
-<p class="values"><code>C4-C5<br>Bb2-C3</code></p>
-
-<h2><code>tessitura</code></h2>
-<p>The range of lowest and highest “frequently used” notes of each corresponding musical line, with octaves in <a href="https://en.wikipedia.org/wiki/Scientific_pitch_notation" target="_blank">scientific pitch notation</a>. Use <code>b</code> for flat and <code>#</code> for sharp.</p>
-<p>For example, if a musical line is mostly between C2 and F3 but has just one or two C4s, the tessitura is:</p>
-<p class="values"><code>C2-F3</code></p>

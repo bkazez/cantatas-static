@@ -1,1 +1,1 @@
-This field can contain multiple lines. To type a new line within a cell in Google Sheets, type option + return (Mac) or control + enter (Windows).
+Note: **{{ include.column }}** can contain multiple lines. To type a new line within a cell in Google Sheets, type option + return (Mac) or control + enter (Windows).

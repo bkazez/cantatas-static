@@ -1,4 +1,4 @@
-This field accepts multiple values separated by `;`
+Use `;` to separate multiple values:
 
 ```
 Value 1; Value 2
