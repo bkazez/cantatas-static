@@ -11,10 +11,19 @@ li span {
   text-transform: lowercase !important;
   font-weight: bold;
   font-style: normal;
-  font-size: 1rem;
   color: black;
 }
 
-.column-name:not(:first-child) {
-  margin-top: 5rem;
+article:not(:first-child) {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.references-columns h3 {
+  font-style: italic;
+  letter-spacing: normal;
+  font-feature-settings: normal;
+  text-transform: none;
+  color: #CD1D3B;
 }

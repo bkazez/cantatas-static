@@ -3,36 +3,38 @@ layout: docs
 title: All the columns
 ---
 <div class="row">
-  <div class="col">
+  <div class="col references-columns">
     {% for col in site.columns %}
-      <h2 class="column-name" id="{{ col.name | slugify }}">{{ col.name }}</h2>
-      {{ col.content | markdownify }}
-      
-      {% if col.multivalue %}
-        {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-      
-      {% if col.markdown %}
-        {% capture inc %}{% include markdown.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-      
-      {% if col.multiline %}
-        {% capture inc %}{% include multiline.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-      
-      {% if col.editorial %}
-        {% capture inc %}{% include editorial.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-      
-      {% if col.noneable %}
-        {% capture inc %}{% include noneable.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-    {% endfor %}
+      <article>
+        <h2 class="column-name" id="{{ col.name | slugify }}">{{ col.name }}</h2>
+        {{ col.content | markdownify | header_offset: 2 }}
+        
+        {% if col.multivalue %}
+          {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}
+          {{ inc | markdownify }}
+        {% endif %}
+        
+        {% if col.markdown %}
+          {% capture inc %}{% include markdown.md column=col.name %}{% endcapture %}
+          {{ inc | markdownify }}
+        {% endif %}
+        
+        {% if col.multiline %}
+          {% capture inc %}{% include multiline.md column=col.name %}{% endcapture %}
+          {{ inc | markdownify }}
+        {% endif %}
+        
+        {% if col.editorial %}
+          {% capture inc %}{% include editorial.md column=col.name %}{% endcapture %}
+          {{ inc | markdownify }}
+        {% endif %}
+        
+        {% if col.noneable %}
+          {% capture inc %}{% include noneable.md column=col.name %}{% endcapture %}
+          {{ inc | markdownify }}
+        {% endif %}
+      {% endfor %}
+    </article>
   </div>
 
   <div class="col">

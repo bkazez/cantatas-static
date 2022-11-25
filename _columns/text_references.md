@@ -6,7 +6,7 @@ Sometimes, the librettist or composer created a text from multiple sources – f
 
 You can describe these kinds of adaptations using these two columns, which work together. Each line of `text_references` describes a source (scriptures, hymns, etc.) that the text is adapted from, and each corresponding line of `text_reference_types` explains the nature of that adaptation. For example:
 
-## Possible values for `text_reference_types`
+# Possible values for `text_reference_types`
 
 `adapted`
 : The text is altered to make it suitable for performance (e.g., it was originally a poem, but it was reworked to become a dialogue between two characters).
@@ -20,7 +20,7 @@ You can describe these kinds of adaptations using these two columns, which work 
 `referenced`
 : The style or imagery of a text is substantially invoked, but the text itself is not used.
 
-## Example
+# Example
 
 For example, here’s how to catalogue a movement with verbatim text from John 16:2–3 as well as adapted text from a 1587 hymn:
 
