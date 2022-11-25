@@ -1,13 +1,20 @@
 ---
 layout: docs
-title: All the columns
+title: Column reference
 ---
 <div class="row">
   <div class="col references-columns">
     {% for col in site.columns %}
-      <article>
-        <h2 class="column-name" id="{{ col.name | slugify }}">{{ col.name }}</h2>
-        {{ col.content | markdownify | header_offset: 2 }}
+      <article id="{{ col.name | slugify }}">
+        <h2 class="column-name">
+          {% if col.name_to_languagify %}
+            {{ col.name_to_languagify | map_append: site.data.language_codes | join: ' / ' }}
+          {% else %}
+            {{ col.name }}
+          {% endif %}
+        </h2>
+        
+        {{ col.content | liquify | markdownify | header_offset: 2 }}
         
         {% if col.multivalue %}
           {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}

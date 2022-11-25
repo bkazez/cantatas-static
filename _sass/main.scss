@@ -11,13 +11,16 @@ li span {
   text-transform: lowercase !important;
   font-weight: bold;
   font-style: normal;
-  color: black;
 }
 
 article:not(:first-child) {
-  padding-top: 3rem;
-  margin-top: 3rem;
+  padding-top: 1rem;
+  margin-top: 5rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.references-columns h2, .references-columns h3 {
+  max-width: none;
 }
 
 .references-columns h3 {

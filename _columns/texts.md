@@ -1,8 +1,9 @@
 ---
-name: texts
+name: text_*
+name_to_languagify: text_
 multiline: true
 ---
-The text for this movement, with poetic line breaks, character names, and formatting. Pick the right column for the language: **text_fr**, **text_de**, etc.
+The text or translation for this movement, with poetic line breaks, character names, and formatting. Pick the right column for the language: **text_fr**, **text_de**, etc.
 
 # Line breaks
 Use the line breaks from the printed libretto. If you don’t have a libretto, see [How to add texts from a score](/docs/howtos/how-to-add-texts-from-score).
@@ -20,7 +21,7 @@ For multiple characters saying the same text, don’t type "and" or "&"; use `;`
 Die Katze lässt das Mausen nicht
 ```
 
-### Bold
+# Bold
 If the printed libretto uses bold (e.g., for chorales), denote that with **asterisks**:
 ```
 **Wie bin ich doch so herzlich froh,
@@ -51,7 +52,7 @@ If the indentation is just a continuation of a previous poetic line, don’t typ
 
 # Translations
 
-Add columns (<code>text_en</code>, <code>text_fr</code>, etc.) for any translations. Note that translations are highly creative work and thus are copyrighted. You must make sure your translation is in the public domain, or get written permission to use it.
+Add columns (**text_en**, **text_fr**, etc.) for any translations. Note that translations are highly creative work and thus are copyrighted. You must make sure your translation is in the public domain, or get written permission to use it.
 
 To make it easier to follow on <span class="acronym">VMII</span>, the translation should be have the same line breaks and formatting as the original.
 

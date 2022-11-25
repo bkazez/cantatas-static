@@ -1,0 +1,14 @@
+- code: en
+  name: English
+- code: fr
+  name: French
+- code: it
+  name: Italian
+- code: de
+  name: German
+- code: la
+  name: Latin
+- code: es
+  name: Spanish
+- code: se
+  name: Swedish
