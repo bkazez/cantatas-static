@@ -52,12 +52,10 @@ If the indentation is just a continuation of a previous poetic line, don’t typ
 
 # Translations
 
-Add columns (**text_en**, **text_fr**, etc.) for any translations. Note that translations are highly creative work and thus are copyrighted. You must make sure your translation is in the public domain, or get written permission to use it.
+Add columns (**text_en**, **text_fr**, etc.) for any translations. The translation must have the same line breaks and formatting as the original.
 
-To make it easier to follow on <span class="acronym">VMII</span>, the translation should be have the same line breaks and formatting as the original.
+Note that translations are highly creative work and thus are copyrighted. You must make sure your translation is in the public domain, or get written permission to use it.
 
-# text_credit_*
+# Credits
 
-If you edited or translated a text as above, credit yourself by typing your name (family name last) in `text_credit_en`, `text_credit_fr`, etc.
-
-If you got permission to use a translation from someone else, credit that as they requested, in the appropriate column: `text_credit_en`, etc.
+If you edited or translated a text as above, credit yourself by typing your name (family name last) in {{ "text_credit_" | map_append: site.data.language_codes | join: ' / ' }}. If you got permission to use a translation from someone else, credit that as they requested, in the appropriate **text_credit_...** column.

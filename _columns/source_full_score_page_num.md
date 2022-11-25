@@ -7,7 +7,7 @@ Page number in the **source_full_score** – the printed page number, not the PD
 85
 ```
 
-For verso, use a superscript _v_:
+For verso, use the Unicode superscript _v_ character, _not_ Google Sheets formatting. You can copy this:
 
 ```
 23ᵛ

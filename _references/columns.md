@@ -3,7 +3,7 @@ layout: docs
 title: Column reference
 ---
 <div class="row">
-  <div class="col references-columns">
+  <div class="col-9 references-columns">
     {% for col in site.columns %}
       <article id="{{ col.name | slugify }}">
         <h2 class="column-name">
@@ -40,14 +40,14 @@ title: Column reference
           {% capture inc %}{% include noneable.md column=col.name %}{% endcapture %}
           {{ inc | markdownify }}
         {% endif %}
-      {% endfor %}
-    </article>
+      </article>
+    {% endfor %}
   </div>
 
-  <div class="col">
-    <ul class="list list-unstyled">
+  <div class="col-3">
+    <ul class="list list-unstyled sticky-top scroll-y">
       {% for col in site.columns %}
-        <li><a href="#{{ col.name | slugify }}"><code>{{ col.name }}</code></a></li>
+        <li><a href="#{{ col.name | slugify }}"><strong>{{ col.name }}</strong></a></li>
       {% endfor %}
     </ul>
   </div>
