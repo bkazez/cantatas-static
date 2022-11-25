@@ -9,15 +9,16 @@ Use a separate line in the cell for every independent musical line. Sometimes a 
 
 ## For each musical line:
 1. Type the instruments exactly as listed in the score, in their original language. Note:
-   - Include all modifiers like Roman numerals `unisoni`, `obbligato`, `ripieno`, `in eco`, etc.
+   - Include all modifiers like Roman numerals `solo`, `unisoni`, `obbligato`, `ripieno`, `in eco`, etc.
    - For instruments like horn and timpani that come in different keys, standardize these: `Timpani in C-G`, not “Timpani in C/Do-G/Sol”
+   - “Basso” and “Basse” can be either voices or instruments. Add `<v>` for vocal and `<i>` for instrumental: `Basso <i>` / `Basso <v>` 
 3. If instrument alternatives are listed (e.g., “Violoncello o Fagotto”), separate those with a `/`: `Violoncello / Fagotto`.
 4. If a line of music has multiple instruments that always play in unison (e.g., “Violoncello e Fagotto”), separate those with a `;`: `Violoncello; Fagotto`.
 
 ## Continuo line
-The continuo line is usually designated with “Basso continuo”, “Continuo”, “Basse continue”, or similar. Write this at the beginning of the line, then a `:`, and then any continuo instruments listed in the score:
+The continuo line is usually designated with “Basso continuo”, “Continuo”, “Basse continue”, or similar. Write this at the beginning of the line, then a `:`, and then any continuo instruments listed in the score. If the continuo line has figured bass numbers, type `#figured` at the end of the line.
 ```
-Continuo: Violoncello; Fagotto; senza Cembalo
+Continuo: Violoncello; Fagotto; senza Cembalo #figured
 ```
 
 ## Dessus lines
@@ -39,3 +40,6 @@ If **work_instrumentation** lists all characters and their voice parts, then whe
 ```
 Oronte
 ```
+
+## Editorial keyboard reductions and continuo realizations
+Ignore editorial keyboard reductions and continuo realizations.

@@ -1,1 +1,1 @@
-Note: **{{ include.column }}** can contain text-based formatting: for _italics_, use `_italics_`.
+Type _italics_ `_like this_`.

@@ -8,6 +8,11 @@ title: All the columns
       <h2 class="column-name" id="{{ col.name | slugify }}">{{ col.name }}</h2>
       {{ col.content | markdownify }}
       
+      {% if col.multivalue %}
+        {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}
+        {{ inc | markdownify }}
+      {% endif %}
+      
       {% if col.markdown %}
         {% capture inc %}{% include markdown.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
@@ -20,11 +25,6 @@ title: All the columns
       
       {% if col.editorial %}
         {% capture inc %}{% include editorial.md column=col.name %}{% endcapture %}
-        {{ inc | markdownify }}
-      {% endif %}
-      
-      {% if col.multivalue %}
-        {% capture inc %}{% include multivalue.md column=col.name %}{% endcapture %}
         {{ inc | markdownify }}
       {% endif %}
       
