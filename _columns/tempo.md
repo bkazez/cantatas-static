@@ -1,6 +1,6 @@
 ---
 name: tempo
-format: editorial
+editorial: true
 multivalue: true
 ---
 All tempi in the movement, in the order that they appear. Ignore repeats. If a tempo occurs only later in the piece, precede it with a semicolon.

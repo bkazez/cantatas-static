@@ -2,7 +2,6 @@
 layout: docs 
 title: How to catalogue keys
 ---
-
 Cataloguing keys is trickier than it seems! You’ll need to know some music theory: tendency tones, movable G and C clefs, and occasionally some figured bass. You should also be able to write a V<sup>7</sup> chord in any key. To find the start or end key:
 
 <ol class="list">

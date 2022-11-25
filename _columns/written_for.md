@@ -1,7 +1,7 @@
 ---
 name: written_for
 noneable: true
-format: multivalue
+multivalue: true
 ---
 The person the work was composed for.
 

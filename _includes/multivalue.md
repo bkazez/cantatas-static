@@ -1,9 +1,5 @@
----
-layout: docs
-title: Multivalue format
----
-If this field contains multiple values, separate them with `;`:
+This field accepts multiple values separated by `;`
 
 ```
-Joseph Haydn; Pasquale Anfossi
+Value 1; Value 2
 ```

@@ -1,6 +1,6 @@
 ---
 name: score_status
-format: multivalue
+multivalue: true
 ---
 The status of the score availability, to you and/or the modern world.
 

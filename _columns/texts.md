@@ -1,6 +1,5 @@
 ---
 name: texts
-format: textdown
 ---
 <p>People all over the world use our texts and translations to learn about the music they’re studying and performing, as well as to find new music to perform. Texts and translations are some of the most important information you can catalogue for <span class="acronym">VMII</span>.</p>
 

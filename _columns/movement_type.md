@@ -1,6 +1,6 @@
 ---
 name: movement_type
-format: multivalue
+multivalue: true
 ---
 <p>Movement types can be anything from “Overture” to “Entrée des songes agréables et effrayés.” Here’s how to capture all that detail.</p>
 

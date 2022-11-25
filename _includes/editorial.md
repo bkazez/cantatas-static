@@ -1,8 +1,4 @@
----
-layout: docs
-title: Editorial format
----
-This field accepts special bracketing to distinguish what is editorial vs original.
+This field accepts brackets to distinguish what is editorial vs original.
 
 ## Editorial additions
 Text added by an editor, typically shown in italics in an edition.

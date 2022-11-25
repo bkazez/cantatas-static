@@ -1,7 +1,7 @@
 ---
 name: work_instrumentation
 multiline: true
-format: editorial
+editorial: true
 ---
 The instrumentation required to perform the whole work.
 

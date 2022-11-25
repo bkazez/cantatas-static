@@ -1,5 +1,5 @@
 ---
 name: purpose
-format: multivalue
+multivalue: true
 ---
 `sacred` or `secular`

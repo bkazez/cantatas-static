@@ -1,6 +1,6 @@
 ---
 name: text_references, text_reference_types
-format: multiline
+multiline: true
 ---
 Sometimes, the librettist or composer created a text from multiple sources – for example, taking some text verbatim from John 16:2–3 and adapting other text from a hymn.
 

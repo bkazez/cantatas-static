@@ -1,6 +1,6 @@
 ---
 name: year
-format: multivalue
+multivalue: true
 ---
 The 4-digit year the work was composed, or a range separated by `-`. Use `?` if the year is uncertain.
 

@@ -1,7 +1,7 @@
 ---
 name: meter
 multivalue: true
-format: editorial
+editorial: true
 ---
 Type all time signatures, ignoring duplicates.
 
