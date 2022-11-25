@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Columns
+title: All the columns
 order: 0
 ---
 
