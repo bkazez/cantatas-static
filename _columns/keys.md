@@ -1,7 +1,7 @@
 ---
 name: "key_start / key_end"
 ---
-The starting and ending keys – the [actual tonalities](/docs/how-tos/how-to-catalogue-keys), _not just the key signatures_ – using uppercase for major, lowercase for minor, `#` for sharp, and `b` for flat.
+The starting and ending keys – the [actual tonalities](/docs/howtos/how-to-catalogue-keys), _not just the key signatures_ – using uppercase for major, lowercase for minor, `#` for sharp, and `b` for flat.
 
 Db minor
 : `db`
