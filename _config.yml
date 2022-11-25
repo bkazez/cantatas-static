@@ -8,6 +8,8 @@ baseurl: "" # subpath of your site, e.g. /blog
 url: "https://www.vmii.org/blog"
 twitter_username: vmii_org
 
+kramdown:
+  syntax_highlighter: nil
 
 collections:
   # Diátaxis framework https://diataxis.fr/
