@@ -4,7 +4,7 @@ title: How to catalogue Bach cantata texts
 ---
 
 1. Visit [Bach Cantata Texts](https://bachcantatatexts.org/).
-2. Click the cantata to catalogue. The URL should look something like `https://bachcantatatexts.org/BWV4.htm`.
+2. Click the cantata to catalogue.
 3. Click “Simple text for programs”
 4. Open the Word doc that downloads – catalogue from this, not the site itself.
 5. Copy/paste the English text (without movement numbers) into the column **text_en**.
@@ -45,3 +45,12 @@ Note: If multiple characters are singing together, separate their names with sem
 ```
 @ Schlendrian; Liesgen
 ```
+
+8. In **text_credit_en**, paste this text from the site (without parentheses). Note that the name order may be different for each text! The text appears after the last numbered stanza of text:
+```
+transl. Michael Marissen and Daniel R. Melamed
+```
+
+9. Add the new URL (e.g., http://bachcantatatexts.org/BWV21.htm) to **url_bach_cantata_texts**.
+10. Remove the URL from **url_emmanuel_music**.
+

@@ -3,4 +3,5 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-{% include posts.md %}
+- [Blog](/blog/)
+- [Docs](/docs/)
