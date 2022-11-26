@@ -3,6 +3,8 @@ layout: docs
 title: How to break works into movements
 ---
 
+When cataloguing for <span class="acronym">VMII</span>, make a new row for each movement, including instrumental ones. Some operas have dialogue – you’ll make a "movement" for dialogue, too. Include everything that's in the score, but for sketches, only include them if someone could actually perform them.
+
 Usually an edition or manuscript clearly divides works into movements with headings like "Aria" or "Recit." For works that aren't clearly divided into movements, choose "movement" boundaries that show the structure of the work and help users find performable excerpts.
 
 Start a new movement if several of these are true:

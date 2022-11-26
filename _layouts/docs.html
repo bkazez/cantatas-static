@@ -37,11 +37,7 @@ layout: default
     </ul>
 
     <h3>How Tos</h3>
-    <ul class="list list-unstyled">
-      {% for doc in site.howtos %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include how-tos.md %}
 
     <h3>References</h3>
     <ul class="list list-unstyled">
