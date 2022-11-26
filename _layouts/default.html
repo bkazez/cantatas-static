@@ -10,24 +10,24 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@vmii_org">
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.vmii.org/favicon.ico" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-57x57" sizes="57x57" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-72x72" sizes="72x72" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-76x76" sizes="76x76" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-114x114" sizes="114x114" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-120x120" sizes="120x120" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-144x144" sizes="144x144" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-152x152" sizes="152x152" />
-    <link rel="apple-touch-icon" type="image/png" href="https://www.vmii.org/assets/apple-touch-icon-180x180" sizes="180x180" />
+    <link rel="shortcut icon" type="image/x-icon" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/favicon.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-57x57" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-72x72" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-76x76" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-114x114" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-120x120" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-144x144" sizes="144x144" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-152x152" sizes="152x152" />
+    <link rel="apple-touch-icon" type="image/png" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/apple-touch-icon-180x180" sizes="180x180" />
 
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/c21741d8-dd3a-43b7-8bad-d2ba447c1e81.woff" type="font/woff" crossorigin>
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/62e1d011-5ef4-4182-a757-346be7052c13.woff2" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/2983745623984756239485726348.woff2" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/2803274651983475629834756293.woff2" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/0189237523457293084572093485.woff" type="font/woff" crossorigin>
-    <link rel="preload" as="font" href="https://www.vmii.org/assets/2798345290348752039485720349.woff" type="font/woff" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/c21741d8-dd3a-43b7-8bad-d2ba447c1e81.woff" type="font/woff" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/62e1d011-5ef4-4182-a757-346be7052c13.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/2983745623984756239485726348.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/2803274651983475629834756293.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/0189237523457293084572093485.woff" type="font/woff" crossorigin>
+    <link rel="preload" as="font" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/2798345290348752039485720349.woff" type="font/woff" crossorigin>
 
-    <link rel="stylesheet" href="http://localhost:3000/assets/application.css">
+    <link rel="stylesheet" href="{% if jekyll.environment == "production" %}https://www.vmii.org{% else %}http://localhost:3000{% endif %}/assets/application.css">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
     <title>{{ page.title }} - {{ site.title }}</title>
