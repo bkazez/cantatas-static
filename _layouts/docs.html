@@ -30,14 +30,7 @@ layout: default
 
     <h3>Basics</h3>
     <ul class="list list-unstyled">
-      {% for doc in site.concepts %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h3>Reference</h3>
-    <ul class="list list-unstyled">
-      {% for doc in site.references %}
+      {% for doc in site.basics %}
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {% endfor %}
     </ul>
@@ -49,6 +42,11 @@ layout: default
       {% endfor %}
     </ul>
 
-
+    <h3>References</h3>
+    <ul class="list list-unstyled">
+      {% for doc in site.references %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </div>

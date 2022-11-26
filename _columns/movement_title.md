@@ -5,4 +5,4 @@ editorial: true
 ---
 The movement title in the original language, as given in the score.
 
-See [How to handle untitled movements](/docs/howtos/how-to-handle-untitled-movements) 
+See [How to handle untitled movements](/docs/how-to/handle-untitled-movements) 

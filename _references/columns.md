@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Column reference
+title: All columns
 ---
 <div class="row">
   <div class="col-9 references-columns">

@@ -6,7 +6,7 @@ multiline: true
 The text or translation for this movement, with poetic line breaks, character names, and formatting. Pick the right column for the language: **text_fr**, **text_de**, etc.
 
 # Line breaks
-Use the line breaks from the printed libretto. If you don’t have a libretto, see [How to add texts from a score](/docs/howtos/how-to-add-texts-from-score).
+Use the line breaks from the printed libretto. If you don’t have a libretto, see [How to add texts from a score](/docs/how-to/add-texts-from-score).
 
 # Character names
 Denote characters with `@`:

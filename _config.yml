@@ -16,13 +16,13 @@ kramdown:
 
 collections:
   # Diátaxis framework https://diataxis.fr/
-  concepts: # aka "explanations"
+  basics: # aka "explanations"
     output: true
     permalink: /docs/:collection/:name
     sort_by: order
   howtos:
     output: true
-    permalink: /docs/:collection/:name
+    permalink: /docs/how-to/:name
   tutorials:
     output: true
     permalink: /docs/:collection/:name
