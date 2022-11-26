@@ -17,9 +17,15 @@ Here's how to do it:
 2. Go to the second movement. Add any new instruments to your list. If you have a doubt about the right score order, check the finales you noted in step 1.
 3. Repeat with each subsequent movement, adding any new instruments and maintaining the order from the score.
 4. For voices that have character names (like Figaro in Marriage of Figaro), include the character name using `@`:
-   ```
-   Basso @ Figaro
-   ```
+    ```
+    Basso @ Figaro
+    ```
+
+    Use `|` for character descriptions. For example, if the score says "Vénus (Dessus), déesse de l'Amour":
+    ```
+    Dessus @ Vénus | déesse de l'Amour
+    ```   
+
 5. For the continuo, follow the rules from [instrumentation](/docs/references/columns#instrumentation). Some composers call the continuo different names (Bassi, Continuo, etc.); make sure that the **work_instrumentation** only has one continuo line. In **work_instrumentation**, use whichever continuo "name" the composer uses most often. For example:
     ```
     Bassi <i>: Violoncello; Basso <i>
