@@ -5,7 +5,7 @@ title: All columns
 <div class="row">
   <div class="col-9 references-columns">
     {% for col in site.columns %}
-      <article id="{{ col.name | slugify }}">
+      <article id="{{ col.name | slugify }}" class="readable-width">
         <h2 class="column-name">
           {% if col.name_to_languagify %}
             {{ col.name_to_languagify | map_append: site.data.language_codes | join: ' / ' }}
