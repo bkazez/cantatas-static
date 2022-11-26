@@ -3,26 +3,27 @@ layout: default
 ---
 <div class="row">
   <div class="col-md-9">
-    <h1>{{ page.title }}</h1>
+    <div class="readable-width">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
 
-    {{ content }}
+      {% if page.previous.url or page.next.url %}
+        <h2>Learn more</h2>
+        <div class="row mt-3">
+          <div class="col">
+            {% if page.previous.url %}
+              ‹&nbsp;<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            {% endif %}
+          </div>
 
-    {% if page.previous.url or page.next.url %}
-      <h2>Learn more</h2>
-      <div class="row mt-3">
-        <div class="col">
-          {% if page.previous.url %}
-            ‹&nbsp;<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-          {% endif %}
+          <div class="col">
+            {% if page.next.url %}
+              <a href="{{ page.next.url }}">{{ page.next.title }}</a>&nbsp;›
+            {% endif %}
+          </div>
         </div>
-
-        <div class="col">
-          {% if page.next.url %}
-            <a href="{{ page.next.url }}">{{ page.next.title }}</a>&nbsp;›
-          {% endif %}
-        </div>
-      </div>
-    {% endif %}
+      {% endif %}
+    </div>
   </div>
 
   <div class="col-md-4 col-lg-3 order-md-first mt-3 mt-md-0">
