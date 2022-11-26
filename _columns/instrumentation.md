@@ -35,7 +35,7 @@ Tenore @ Oronte
 ``` 
 The introductory material from the edition is often helpful for finding the voice part for each character.
 
-If **work_instrumentation** lists all characters and their voice parts, then when cataloguing **instrumentation**, type just the character’s name:</p>
+If **work_instrumentation** lists all characters and their voice parts, then when cataloguing **instrumentation**, type just the character’s name:
 
 ```
 Oronte
