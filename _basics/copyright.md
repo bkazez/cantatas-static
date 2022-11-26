@@ -3,7 +3,6 @@ layout: docs
 title: "Be careful about copyright!"
 order: 1
 ---
-
 As a general guideline, you must only type factual information, not creative work. If someone else’s creative work is very old or otherwise in the public domain, you can copy it without written permission. Otherwise, you must get written permission from the copyright holder.
 
 If you need to quote a brief part of someone’s creative work, use quotation marks and cite your source.

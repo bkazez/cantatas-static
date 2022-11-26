@@ -3,7 +3,6 @@ layout: docs
 title: Getting started
 order: 0
 ---
-
 To contribute to <span class="acronym">VMII</span>, you simply make a spreadsheet in Google Sheets, and it’ll be imported automatically. <a href="mailto:contact@vmii.org">Contact us</a> for a template.
 
 In the spreadsheet, make a new row for each movement, including instrumental ones. Some operas have dialogue – you’ll make a “movement” for dialogue, too. Include sketches only if someone could actually perform them.
