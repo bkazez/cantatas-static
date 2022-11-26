@@ -30,3 +30,26 @@ article:not(:first-child) {
   text-transform: none;
   color: #CD1D3B;
 }
+
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+td {
+  vertical-align: top;
+  padding: 0.4rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li:before
+{
+  content: '· ';
+  margin-left: -0.5rem;
+}

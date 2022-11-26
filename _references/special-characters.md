@@ -19,12 +19,7 @@ See also:
 ## Superscripts
 Type superscripts using actual Unicode superscript characters, not Google Sheets formatting:
 
-Verso
-: `23ᵛ`
-
-Saint
-: `Sᵗ`
-
-Sainte
-: `Sᵗᵉ`
+Verso | `23ᵛ`
+Saint | `Sᵗ`
+Sainte | `Sᵗᵉ`
 

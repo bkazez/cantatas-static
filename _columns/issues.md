@@ -1,4 +1,4 @@
 ---
 name: issues
 ---
-Any issues you ran into. These will be shown publicly and flagged for follow-up.
+Any issues you encountered during your cataloguing. Typing something in "issues" automatically flags this row for follow-up.

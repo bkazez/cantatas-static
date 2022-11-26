@@ -3,17 +3,10 @@ name: meter
 multivalue: true
 editorial: true
 ---
-Type all time signatures, ignoring duplicates.
+Type all time signatures, ignoring duplicates. Use a slash to separate numerator and denominator. For slashed C, 2, 3, etc., use a backslash.
 
-**3**
-: `3`
-
-**C**
-: `C`
-
-**₵** (alla breve)
-: `\C`
-
-```
-\C; 3/2
-```
+If the score says… | …then in **meter**, type:
+**4/4** | `4/4`
+**C** | `C`
+**3** | `3`
+**₵** | `\C`
