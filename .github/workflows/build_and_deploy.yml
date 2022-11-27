@@ -30,7 +30,7 @@ jobs:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
       run: |
-        for x in ("docs" "blog" "feed.xml" "assets-static"); do
+        for x in "docs" "blog" "feed.xml" "assets-static"; do
           aws s3 sync ./_site/$x s3://${{ secrets.AWS_S3_BUCKET_NAME }}/$x --acl public-read --delete --cache-control max-age=604800
         end
     - name: "Create AWS Cloudfront invalidations"
