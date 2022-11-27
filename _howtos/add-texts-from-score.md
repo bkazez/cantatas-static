@@ -13,3 +13,16 @@ If you can’t find a modern libretto, you’ll have to type the text directly f
     - Look for rhyme and meter schemes – try speaking the text aloud.
     
 4. Format character names as in the [column reference](/docs/references/columns#texts).
+5. If needed, divide the poem into stanzas based on verse, "Fine" in the music, manuscript spacing, etc. If a stanza is in a B section, indent it using `> `. For example:
+
+    ```
+    Cedez, il faut vous rendre,
+    A nos ardents desirs ;
+    Pourrez-vous vous défendre,
+    Des plus charmants plaisirs.
+    
+    > Soulagez nôtre peine,
+    > Ou dés ce même jour ;
+    > Redoutez une haine,
+    > Egale à nôtre amour.
+    ```
