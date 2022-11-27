@@ -4,16 +4,14 @@ gems:
 host: 0.0.0.0 # for Docker
 title: VMII
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Learn about the Vocal Music Instrumentation Index, a project to index thousands of arias,
+  duets, and choruses by instrumentation, text, and more.
 baseurl: "" # subpath of your site, e.g. /blog
-url: "https://www.vmii.org/blog"
+url: "https://www.vmii.org/"
 twitter_username: vmii_org
 
 exclude:
 - 'README.md'
-- '404.html'
 - Dockerfile
 
 kramdown:
