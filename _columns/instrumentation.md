@@ -42,6 +42,7 @@ In French music, you may find a line labeled “Dessus” with instrument requir
 Dessus I: Violons
 Dessus II: Hautbois
 ```
+If the composer wrote nothing at the beginning of the movement but some instruments in the middle (example: Hautbois and Flûte alternating), write `Dessus: Hautbois + Flûte`. We will show this if someone searches for Violin, Flute, Oboe, etc. If you searched for Oboe, we’ll show it higher in the list.
 
 # Vocal parts
 In dramatic works, vocal parts often have character names. Denote these with `@`:
