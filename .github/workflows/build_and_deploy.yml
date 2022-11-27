@@ -14,8 +14,6 @@ env:
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_DEFAULT_REGION: 'us-east-1'
 
-  PATHS_TO_SYNC: ("docs" "blog" "feed.xml" "assets-static")
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
@@ -32,7 +30,7 @@ jobs:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
       run: |
-        for x in $PATHS_TO_SYNC; do
+        for x in ("docs" "blog" "feed.xml" "assets-static"); do
           aws s3 sync ./_site/$x s3://${{ secrets.AWS_S3_BUCKET_NAME }}/$x --acl public-read --delete --cache-control max-age=604800
         end
     - name: "Create AWS Cloudfront invalidations"
