@@ -11,6 +11,11 @@ baseurl: "" # subpath of your site, e.g. /blog
 url: "https://www.vmii.org/blog"
 twitter_username: vmii_org
 
+exclude:
+- 'README.md'
+- '404.html'
+- Dockerfile
+
 kramdown:
   syntax_highlighter: nil
 
