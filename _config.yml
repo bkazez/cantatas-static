@@ -1,5 +1,9 @@
 gems:
   - jekyll-liquify
+  - jekyll-feed
+
+feed:
+  path: /assets-static/feed.xml
 
 host: 0.0.0.0 # for Docker
 title: VMII
