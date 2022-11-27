@@ -2,7 +2,9 @@
 name: score_status
 multivalue: true
 ---
-The "availability" of this movement to the present:
+The "availability" of this movement to the present.
+
+# Possible values
 
 | `lost` | None of this movement has not survived to the present.
 | `fragment` | Only part of the movement has survived to the present.
