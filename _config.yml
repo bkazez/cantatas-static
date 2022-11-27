@@ -5,6 +5,7 @@ gems:
 feed:
   path: /assets-static/feed.xml
 
+permalink: pretty
 host: 0.0.0.0 # for Docker
 title: VMII
 description: >-
