@@ -2,7 +2,7 @@
 layout: docs 
 title: Spelling and capitalization
 ---
-As a rule, type exactly what’s in the score.
+As a rule, type exactly what’s in the score. The sheet music pages themselves should take precedence over anything that's in the table of contents.
 
 ## Modern scores
 If your score is modern and recent, match the spelling and capitalization of the score. If your score is modern but slightly older (e.g., from the 1930s with slightly older spellings), update spellings and capitalization based on a modern rules. (For German, see <a href="https://grammis.ids-mannheim.de/rechtschreibung/6180">Deutsche Rechtschreibung</a> regarding the German letter ß.)
