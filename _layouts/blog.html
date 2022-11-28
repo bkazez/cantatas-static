@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <p class="byline">
+    {{ page.date | date_to_long_string }}<br>
+    By {{ page.author }}
+  </p>
+
+  {{ content }}
+
+  {% if page.previous.url or page.next.url %}
+    <h2>More from Cataloguers’ Corner</h2>
+    <div class="row mt-3">
+      <div class="col">
+        {% if page.previous.url %}
+          ‹ <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        {% endif %}
+      </div>
+
+      <div class="col">
+        {% if page.next.url %}
+          <a href="{{ page.next.url }}">{{ page.next.title }}</a> ›
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</article>

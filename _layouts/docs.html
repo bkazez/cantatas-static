@@ -27,19 +27,19 @@ layout: default
   </div>
 
   <div class="col-md-4 col-lg-3 order-md-first mt-3 mt-md-0">
-    <h2>Documentation</h2>
+    <div>‹ <a href="/about">About</a></div>
 
-    <h3>Basics</h3>
+    <h2>Basics</h2>
     <ul class="list list-unstyled">
       {% for doc in site.basics %}
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {% endfor %}
     </ul>
 
-    <h3>How Tos</h3>
+    <h2>How Tos</h2>
     {% include how-tos.md %}
 
-    <h3>References</h3>
+    <h2>References</h2>
     <ul class="list list-unstyled">
       {% for doc in site.references %}
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
