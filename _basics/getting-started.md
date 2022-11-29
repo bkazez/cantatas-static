@@ -33,7 +33,7 @@ For example, if you're cataloguing an opera and the score calls it _dramma gioco
 
 As another example, if the instrumentation for an aria calls for "Violons II in eco", type `Violons II in eco`. Behind the scenes, <span class="acronym">VMII</span> understand that `II in eco` are modifiers, `Violons` is plural, and `Violon` is the same as a violin.
 
-For more background this "thesaurus" approach to column design, read Getty's guide to [controlled vocabularies](https://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/what.pdf).
+For more background on this "thesaurus" approach to column design, read Getty's guide to [controlled vocabularies](https://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/what.pdf).
 
 ## Next steps
 
