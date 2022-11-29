@@ -26,16 +26,16 @@ collections:
   # Diátaxis framework https://diataxis.fr/
   basics: # aka "explanations"
     output: true
-    permalink: /docs/:collection/:name
+    permalink: /docs/:collection/:name/index.html
     sort_by: order
   howtos:
     output: true
-    permalink: /docs/how-to/:name
+    permalink: /docs/how-to/:name/index.html
   tutorials:
     output: true
-    permalink: /docs/:collection/:name
+    permalink: /docs/:collection/:name/index.html
   references:
-    permalink: /docs/:collection/:name
+    permalink: /docs/:collection/:name/index.html
     output: true
   columns:
     output: false # handled by _references/columns
