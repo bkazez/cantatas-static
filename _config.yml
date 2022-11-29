@@ -5,7 +5,7 @@ gems:
 feed:
   path: /assets-static/feed.xml
 
-permalink: /:categories/:title # no :output_ext
+permalink: pretty # no :output_ext
 host: 0.0.0.0 # for Docker
 title: VMII
 description: >-
