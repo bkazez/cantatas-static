@@ -38,5 +38,6 @@ collections:
     permalink: /docs/:collection/:name/index.html
     output: true
   columns:
-    output: false # handled by _references/columns
+    output: true # handled by _references/columns
+    permalink: /docs/:collection/:name/index.html
     sort_by: name
