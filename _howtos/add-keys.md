@@ -2,31 +2,31 @@
 layout: docs 
 title: How to catalogue keys
 ---
-Cataloguing keys is trickier than it seems! You’ll need to know some music theory: tendency tones, movable G and C clefs, and occasionally some figured bass. You should also be able to write a V<sup>7</sup> chord in any key. To find the start or end key:
 
-<ol class="list">
-  <li>Play the bass line and try to find the tonic.</li>
-  <li>Check the key signature for clues. Note that in early music, key signatures were not yet standardized. For example, g minor might be written with one flat instead of two.</li>
-  <li>Check the melody and try to find the tonic.</li>
-  <li>
-    To confirm the tonic, look for key-defining motion:
-    <ul>
-      <li>4̂ → 3̂</li>
-      <li>2̂ → 1̂</li>
-      <li>5̂ → 1̂</li>
-      <li>7̂ → 1̂</li>
-    </ul>
-  </li>
-</ol>
+If typing keys from a reference source, cite it in **[source_background](/docs/references/columns#source-background)**.
 
-<code>key_start</code> is the key that’s established at the beginning. Don’t look farther than 8 beats or so, because the movement may have already changed keys.
+Otherwise, you’ll need to know some music theory: tendency tones, movable G and C clefs, and occasionally some figured bass. You should also be able to write a V<sup>7</sup> chord in any key. It’s best to work from the score, but in case of doubt, you may wish to refer to historically informed recordings as well.
 
-<code>key_end</code> is the last key that’s established at the end. Look at the last few measures, not just the last chord:
+## How to find **key_start**
 
-<ul class="list">
-  <li>If a movement has a da capo, the <code>key_end</code> is the last key of the A section, <em>not</em> the B section.</li>
-  <li>If, for example, a movement ends with a few measures of C minor and then a Picardy third, catalogue the <code>key_end</code> as <code>c</code>.</li>
-  <li>If, for example, a movement ends with a few measures of G major but ends on a D major (dominant) chord, catalogue the <code>key_end</code> as <code>G</code>.</li>
-</ul>
+1. Play the bass line and try to find a possible tonic.
+2. Check the key signature for clues. Note that in early music, key signatures were not yet standardized. For example, g minor might be written with one flat instead of two.
+3. Play the melody to check the tonic you have found.
+4. To confirm the tonic you’ve found, look for key-defining motion:
+    - 4̂ → 3̂
+    - 2̂ → 1̂
+    - 5̂ → 1̂
+    - 7̂ → 1̂
+   
+5. Type the key using uppercase for major, lowercase for minor, `#` for sharp, and `b` for flat. See [the column reference](/docs/references/columns#key-start-key-end) for details.
 
-It’s best to work from the score, but in case of doubt, you may wish to refer to historically informed recordings as well.
+## How to find **key_end**
+
+1. If this is a recitative, just type the key of the last chord.
+2. Otherwise, follow steps 1–4 above.
+3. Check for special cases:
+- _Da capos:_ If a movement has a da capo, the `key_end` is the last key of the A section, <em>not</em> the B section.
+- _Picardy thirds:_ If, for example, a movement ends with a few measures of C minor and then a Picardy third, catalogue the **key_end** as `c`.
+- _Dominant endings:_ If, for example, a movement ends with a few measures of G major but ends on a D major (dominant) chord, catalogue the **key_end** as `G`.
+
+See [the column reference](/docs/references/columns#key-start-key-end) for details.

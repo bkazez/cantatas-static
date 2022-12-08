@@ -23,3 +23,8 @@ Verso | `23ᵛ`
 Saint | `Sᵗ`
 Sainte | `Sᵗᵉ`
 
+## Music theory
+
+```
+1̂ 2̂ 3̂ 4̂ 5̂ 6̂ 7̂ 8̂ 9̂
+```
