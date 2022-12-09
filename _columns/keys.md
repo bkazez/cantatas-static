@@ -8,6 +8,8 @@ The starting and ending keys – the [actual tonalities](/docs/how-to/catalogue-
 
 If typing keys from a reference source, cite it as `source_background`. Otherwise, please read [How to Catalogue Keys](/docs/how-to/catalogue-keys) even if you have music background.
 
+Note that the key signature may be missing or not the actual key.
+
 For **key_start**, don’t look farther than the first 8 beats.
 
 **key_end** is the last key that’s established at the end of the performed music, ignoring Picardy thirds or dominant endings:

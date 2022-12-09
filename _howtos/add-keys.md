@@ -5,7 +5,7 @@ title: How to catalogue keys
 
 If typing keys from a reference source, cite it in **[source_background](/docs/references/columns#source-background)**.
 
-Otherwise, you’ll need to know some music theory: tendency tones, movable G and C clefs, and occasionally some figured bass. You should also be able to write a V<sup>7</sup> chord in any key. It’s best to work from the score, but in case of doubt, you may wish to refer to historically informed recordings as well.
+Otherwise, note that the key signature may be missing or not the actual key. To find the actual key, you’ll need to know some music theory: tendency tones, movable G and C clefs, and occasionally some figured bass. You should also be able to write a V<sup>7</sup> chord in any key. It’s best to work from the score, but in case of doubt, you may wish to refer to historically informed recordings as well.
 
 ## How to find **key_start**
 
@@ -20,9 +20,11 @@ Otherwise, you’ll need to know some music theory: tendency tones, movable G an
    
 5. Type the key using uppercase for major, lowercase for minor, `#` for sharp, and `b` for flat. See [the column reference](/docs/references/columns#key-start-key-end) for details.
 
+6. If this is a recitative, the music will likely be harmonically and tonally unsettled, with only fleeting sense of tonic. Therefore, look for the first time (usually in measure 1 or 2) that there is any sense of tonic in the melody/harmony.
+
 ## How to find **key_end**
 
-1. If this is a recitative, just type the key of the last chord.
+1. If this is a recitative, just type the key of the last chord. 
 2. Otherwise, follow steps 1–4 above.
 3. Check for special cases:
 - _Da capos:_ If a movement has a da capo, the `key_end` is the last key of the A section, <em>not</em> the B section.
