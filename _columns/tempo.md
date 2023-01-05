@@ -3,7 +3,9 @@ name: tempo
 editorial: true
 multivalue: true
 ---
-All tempi in the movement, in the order that they appear. Ignore repeats. If a tempo occurs only later in the piece, precede it with a semicolon.
+Type every tempo in the movement, in the order that they appear. Ignore repeats.
+
+If no tempo is listed at the beginning, but a tempo does appear later in the piece, type like this:
 
 ```
 ; Allegro
